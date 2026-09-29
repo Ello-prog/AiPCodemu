@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
         width: 500px;
         text-align: center;
         color: blue;
@@ -28,3 +28,404 @@ h1 {
       i {
         color: green;
       }
+p {
+	color: red;
+}
+i {
+	color: blue;
+}
+
+h1,h2,h3{
+  text-align: center;
+}
+
+h1,h2,h3{
+  text-align: center;
+}
+h2{
+  color:blue;
+}
+h3{
+  font-size: 16px;
+  color:red;
+}
+
+h1,h2,h3{
+  text-align: center;
+	color: red;
+}
+h3{
+  font-size: 16px;
+}
+
+ul i {
+  color:red;
+}
+
+p i {
+  color:green;
+}
+
+p b i{
+  color:red;
+}
+
+li > b {
+  color: red;
+}
+
+.odd{
+  color:red;
+}
+
+.eve{
+  color:green;
+}
+
+.eee{
+  color:red;
+}
+
+.xxx{
+  font-size: 30px;
+}  */
+
+.red{
+  color:red;
+}
+
+.green{
+  color:green;
+}
+
+.blue{
+  color:blue;
+}
+
+.block3 {
+	color: red;
+}
+.block4 {
+	color: green;
+}
+
+
+.eee,.zzz{
+	font-size: 20px;
+	line-height: 1.5;
+	font-family: Arial;
+}
+
+
+.eee {
+	font-size: 20px;
+}
+
+.zzz {
+	font-size: 30px;
+}
+
+.ggg {
+	font-size: 35px;
+}
+
+.eee,.zzz,.ggg{
+  text-align: center;
+	font-family: Arial;
+}
+
+h2.header{
+
+font-size: 40px;
+
+}
+
+h3.header{
+
+font-size: 30px;
+
+}
+
+.eee i {
+  color:red;
+}
+
+.error{
+	color: red;
+}
+.success{
+	color: green;
+}
+.large {
+	font-size: 30px;
+}
+.small {
+	font-size: 20px;
+}
+
+.red {
+	color: red;
+}
+.big {
+	font-size: 30px;
+}
+.bold {
+	font-weight: bold;
+}
+
+#elem1 {
+	color: red;
+}
+
+#elem2 {
+	color: green;
+}
+
+#elem3 {
+	color: blue;
+}
+
+.eee.zzz.ccc {
+  color: red;
+}
+.bbb.zzz {
+  color: red;
+}
+
+h2.bbb.zzz {
+  color: red;
+}
+
+#elem.bbb {
+  color: red;
+}
+
+#elem.bbb.zzz {
+  color: red;
+}
+
+h2#elem.bbb {
+  color: red;
+}
+#elem ~ li {
+  color: red;
+}
+main * {
+  color: red;
+}
+/*
+a:link {
+  color: blue;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+a:active {
+  color: black;
+}
+*/
+a {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  text-decoration:underline;
+}
+p:first-of-type {
+  background: #dbeafe;
+  font-weight: bold;
+}
+
+p:last-of-type {
+  background: #d1fae5;
+}
+
+p:nth-of-type(2) {
+  background: #fef3c7;
+}
+
+p:nth-of-type(odd) {
+  border-left: 4px solid #3b82f6;
+}
+
+p:nth-last-of-type(2) {
+  background: #fce7f3;
+}
+
+span:only-of-type {
+  background: #fee2e2;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.multi {
+  margin-top: 10px;
+}
+li:not(.elem) {
+  color: red;
+}
+
+.bodycolor{
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+
+.border{
+    margin-top: 25px;
+    width: 300px;
+    height: 100px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: blue;
+}
+
+
+
+.border-dottern {
+    margin-top: 25px;
+	border-width: 5px;
+	border-style: dotted;
+	border-color: red;
+	width: 300px;
+	height: 100px;
+}
+
+
+.border-tire {
+    margin-top: 25px;
+	border-width: 5px;
+	border-style: dashed;
+	border-color: orange;
+	width: 300px;
+	height: 100px;
+}
+
+.border-double {
+    margin-top: 25px;
+	border-width: 7px;
+	border-style: double;
+	border-color: blue;
+	width: 300px;
+	height: 100px;
+}
+
+.borde {
+    margin-top: 25px;
+	border: 1px solid red;
+	width: 300px;
+	height: 100px;
+}
+.borde-dottern {
+    margin-top: 25px;
+	border: 1px dotted blue;
+	width: 300px;
+	height: 100px;
+}
+.borde-tire {
+    margin-top: 25px;
+	border: 1px dashed green;
+	width: 300px;
+	height: 100px;
+}
+.borde-double {
+    margin-top: 25px;
+	border: 5px double orange;
+	width: 300px;
+	height: 100px;
+}
+
+.randombord{
+    margin-top: 25px;
+    width: 300px;
+    height: 100px;
+    border-top: blue 5px solid;
+    border-left: orange 5px solid;
+    border-right: green 5px solid;
+    border-bottom: red 5px solid;
+}
+
+.randombordd{
+    margin-top: 25px;
+    width: 300px;
+    height: 100px;
+    border-top: blue 1px solid;
+    border-left: red 5px solid;
+    border-right: green 5px dotted;
+    border-bottom: blue 1px solid;
+}
+
+
+.radius {
+    margin-top: 25px;
+	width: 150px;
+	height: 150px;
+	border: 1px solid green;
+	border-radius: 10px;
+}
+.background-radius{
+    margin-top: 25px;
+	border-radius: 20px;
+	width: 300px;
+	height: 100px;
+	background-color: aquamarine;
+}
+.krug{
+    margin-top: 25px;
+    width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	border: 1px solid green;
+}
+
+.krivo{
+    margin-top: 25px;
+    width: 250px;
+    height: 250px;
+    border: 1px solid green;
+    border-radius: 40px 50px 60px 70px;
+}
+
+.procent{
+    margin-top: 25px;
+    width: 250px;
+    height: 250px;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.info{
+    background-repeat: repeat-x ;
+    background-image: url(./iamges/bg.png);
+}
+
+ul{
+    list-style-type: square;
+}
+
+.circle{
+    list-style-type: circle;
+}
+
+.none{
+    list-style-type: none;
+}
+
+ol {
+	list-style-type: lower-alpha;
+}
+
+.upper{
+    list-style-type: upper-alpha;
+}
+
+.greek{
+    list-style-type: lower-greek;
+}
